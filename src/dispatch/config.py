@@ -217,3 +217,8 @@ ONCALL_PLUGIN_SLUG = config("ONCALL_PLUGIN_SLUG", default="opsgenie-oncall")
 # Incident Cost Configuration
 ANNUAL_COST_EMPLOYEE = config("ANNUAL_COST_EMPLOYEE", cast=int, default="650000")
 BUSINESS_HOURS_YEAR = config("BUSINESS_HOURS_YEAR", cast=int, default="2080")
+
+# custom jira plugin (email to jira id mapping)
+JIRA_ID_MAPPING_FILE_PATH = config(
+    "JIRA_ID_MAPPING_FILE_PATH", default=None
+)

@@ -204,3 +204,5 @@ tags
 docker/.env
 *.dump
 !data/dispatch-sample-data.dump
+
+.idea
